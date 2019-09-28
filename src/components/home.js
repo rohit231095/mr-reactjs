@@ -22,10 +22,152 @@ class Home extends Component {
                             <div className='time'>09:14</div>
                             <div className='day'><span>Friday</span><br></br>June 7</div>
                         </div>
-                        <div className='row'></div>
+                        <div className='row'>
+                            <div className='card cardgroup'>
+                                <div className='content'><i class="fi fi-persons"></i>Patients</div>
+                                <div className='content circle'>4</div>
+                            </div>
+                            <div className='card cardgroup'>
+                                <div className='content'><i class="fi fi-calendar"></i>Appointments</div>
+                                <div className='content circle'>3</div>
+                            </div>
+                            <div className='card cardgroup'>
+                                <div className='content'><i class="fi fi-hipchat"></i>Messages</div>
+                                <div className='content circle'>0</div>
+                            </div>
+                        </div>
                     </div>
                     <div className='col'>
-                        <div className='card'></div>
+                        <div className='card'>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-hipchat"></i></div></div>
+                                <div className='text'>You have a message from<span>Sarah</span><span>Connor</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have a new appointment!</div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-hipchat"></i></div></div>
+                                <div className='text'>You have a message from<span>Sarah</span><span>Connor</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-hipchat"></i></div></div>
+                                <div className='text'>You have a message from<span>Sarah</span><span>Connor</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-hipchat"></i></div></div>
+                                <div className='text'>You have a message from<span>Sarah</span><span>Connor</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-hipchat"></i></div></div>
+                                <div className='text'>You have a message from<span>Sarah</span><span>Connor</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-hipchat"></i></div></div>
+                                <div className='text'>You have a message from<span>Sarah</span><span>Connor</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                            <div className='contentBox'>
+                                <div className='icon'><div><i class="fi fi-calendar"></i></div></div>
+                                <div className='text'>You have an appointment with <span>Peter</span><span>Parker</span>at<span>10:00</span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

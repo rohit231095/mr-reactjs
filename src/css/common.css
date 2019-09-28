@@ -1,9 +1,14 @@
+body {
+    overflow: hidden;
+}
+
 #homeContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100vw;
+    color: #626262;
 }
 
 #navbar {
@@ -21,8 +26,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #FF9E1A;
+    height: 100%;
+    width: 20%;
 }
 
 #navItemsContainer {
@@ -51,6 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 15%;
 }
 
 .navCircle {
@@ -64,15 +72,15 @@
     margin-top: 5.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .col {
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 500 px;
+    width: 33%;
+    height: 447px;
 }
 
 .row {
@@ -87,14 +95,113 @@
     height: 100%;
 }
 
-.time{
+.time {
     font-size: 2.8rem;
 }
 
-.day{
+.day {
     text-align: right;
 }
 
-.day>span{
+.day>span {
     font-size: 1.5rem;
+}
+
+.cardgroup {
+    margin-top: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 350px;
+}
+
+.cardgroup>.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardgroup>.content>i {
+    font-size: 2.8rem;
+}
+
+.cardgroup>.content.circle {
+    border-radius: 50%;
+    font-size: 2.8rem;
+    background-color: #FF9E1A;
+    color: white;
+    padding: 0.25rem 1rem;
+}
+
+.card {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card>.contentBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    height: 50px;
+    width: 100%;
+}
+
+.card>.contentBox>.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF9E1A;
+    width: 20%;
+}
+
+.card>.contentBox>.icon>div {
+    background-color: #FFF5E8;
+    border-radius: 50%;
+    padding: 0.8rem;
+}
+
+.card>.contentBox>.text {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 3rem;
+    font-size: 0.9rem;
+    width: 80%;
+}
+
+.card>.contentBox>.text>span {
+    color: #FF9E1A;
+    padding: 0 0.2rem;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #FFDEB2;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #FF9E1A;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FF9E1A;
 }
