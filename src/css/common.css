@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #homeContainer {
@@ -204,4 +204,119 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #FF9E1A;
+}
+
+#watermark {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4.5rem;
+}
+
+#watermark>div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    border-radius: 25px;
+    background: #FFDEB2;
+    font-size: 1.8rem;
+    font-stretch: ultra-expanded;
+    color: #FF9E1A;
+    opacity: 0.3;
+    width: 8%;
+}
+
+#loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #FFDEB2;
+}
+
+#loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 24rem;
+    height: 24rem;
+    padding: 0.8rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FF9E1A;
+    color: #FFDEB2;
+    opacity: 0.8;
+}
+
+.formRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0.8rem 0;
+    flex-wrap: wrap;
+}
+
+.formLabel {
+    width: 35%;
+    text-align: left;
+}
+
+.formInput {
+    width: 60%;
+    border: 2px solid #FFDEB2;
+    border-radius: 4px;
+    padding: 0.25rem;
+}
+
+.formInput>input {
+    background-color: transparent;
+    border: 0;
+}
+
+.formInput>input:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.formButton {
+    margin-top: 0.8rem;
+    border: 2px solid #FFDEB2;
+    border-radius: 4px;
+    padding: 0.25rem 1.8rem;
+}
+
+.formButton>button {
+    background-color: transparent;
+    border: 0;
+    color: #FFDEB2;
+}
+
+.formButton>button:focus {
+    outline: none;
+}
+
+.formButton:hover, .formButton:hover>button {
+    cursor: pointer;
+    border-color: black;
+    color: black;
+}
+
+.formLabelonInputFocused {
+    color: black;
+}
+
+.formInputonInputFocused {
+    border-color: black;
+}
+
+.error{
+    color: red;
+    width: 100%;
+    text-align: right;
 }
